@@ -4,7 +4,7 @@ const KEY='touchline-database-v1';
 let db,bundled,refresh,useDatabase,migrate,tab='players',page=0,search='',clubFilter='',posFilter='',ageFilter='',sort='overall-desc',importErrors=[];
 export function initEditor(defaultDB,onRefresh,onUse,onMigrate) {
   bundled=structuredClone(defaultDB);db=structuredClone(defaultDB);refresh=onRefresh;useDatabase=onUse;migrate=onMigrate;
-  try{const saved=localStorage.getItem(KEY);if(saved){const parsed=JSON.parse(saved),errors=validateDatabase(parsed);if(errors.length)throw Error(errors[0]);db=parsed;}}catch(e){toast(`Editor storage could not load: ${e.message}. The bundled database is available.`,true);}
+  try{const saved=localStorage.getItem(KEY);if(saved){const parsed=JSON.parse(saved),errors=validateDatabase(parsed);if(errors.length)throw Error(errors[0]);db={...parsed,players:parsed.players.map(normalizePlayer)};}}catch(e){toast(`Editor storage could not load: ${e.message}. The bundled database is available.`,true);}
 }
 export function getEditorDatabase(){return structuredClone(db);}
 function persist(){try{localStorage.setItem(KEY,JSON.stringify(db));toast('Database saved locally.');}catch{toast('Database could not be saved locally. Export JSON to keep your work.',true);}refresh();}

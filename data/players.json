@@ -50,7 +50,11 @@
       "reflexes": 85,
       "handling": 85,
       "aerial": 85,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 85,
+      "workRate": 87,
+      "goalkeeperPositioning": 59,
+      "distribution": 80
     },
     {
       "id": "p1",
@@ -101,7 +105,11 @@
       "reflexes": 71,
       "handling": 71,
       "aerial": 71,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 71,
+      "workRate": 74,
+      "goalkeeperPositioning": 44,
+      "distribution": 57
     },
     {
       "id": "p2",
@@ -152,7 +160,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 37,
+      "workRate": 74,
+      "goalkeeperPositioning": 92,
+      "distribution": 81
     },
     {
       "id": "p3",
@@ -203,7 +215,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 89
+      "kicking": 89,
+      "jumping": 34,
+      "workRate": 90,
+      "goalkeeperPositioning": 86,
+      "distribution": 89
     },
     {
       "id": "p4",
@@ -254,7 +270,11 @@
       "reflexes": 54,
       "handling": 54,
       "aerial": 54,
-      "kicking": 85
+      "kicking": 85,
+      "jumping": 54,
+      "workRate": 96,
+      "goalkeeperPositioning": 91,
+      "distribution": 85
     },
     {
       "id": "p5",
@@ -305,7 +325,11 @@
       "reflexes": 42,
       "handling": 42,
       "aerial": 42,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 42,
+      "workRate": 82,
+      "goalkeeperPositioning": 96,
+      "distribution": 80
     },
     {
       "id": "p6",
@@ -356,7 +380,11 @@
       "reflexes": 35,
       "handling": 35,
       "aerial": 35,
-      "kicking": 91
+      "kicking": 91,
+      "jumping": 35,
+      "workRate": 81,
+      "goalkeeperPositioning": 93,
+      "distribution": 91
     },
     {
       "id": "p7",
@@ -407,7 +435,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 39,
+      "workRate": 69,
+      "goalkeeperPositioning": 81,
+      "distribution": 75
     },
     {
       "id": "p8",
@@ -458,7 +490,11 @@
       "reflexes": 44,
       "handling": 44,
       "aerial": 44,
-      "kicking": 79
+      "kicking": 79,
+      "jumping": 44,
+      "workRate": 89,
+      "goalkeeperPositioning": 81,
+      "distribution": 79
     },
     {
       "id": "p9",
@@ -509,7 +545,11 @@
       "reflexes": 42,
       "handling": 42,
       "aerial": 42,
-      "kicking": 96
+      "kicking": 96,
+      "jumping": 42,
+      "workRate": 96,
+      "goalkeeperPositioning": 65,
+      "distribution": 96
     },
     {
       "id": "p10",
@@ -560,7 +600,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 87
+      "kicking": 87,
+      "jumping": 28,
+      "workRate": 81,
+      "goalkeeperPositioning": 53,
+      "distribution": 87
     },
     {
       "id": "p11",
@@ -611,7 +655,11 @@
       "reflexes": 48,
       "handling": 48,
       "aerial": 48,
-      "kicking": 91
+      "kicking": 91,
+      "jumping": 48,
+      "workRate": 87,
+      "goalkeeperPositioning": 75,
+      "distribution": 91
     },
     {
       "id": "p12",
@@ -662,7 +710,11 @@
       "reflexes": 52,
       "handling": 52,
       "aerial": 52,
-      "kicking": 95
+      "kicking": 95,
+      "jumping": 52,
+      "workRate": 92,
+      "goalkeeperPositioning": 70,
+      "distribution": 95
     },
     {
       "id": "p13",
@@ -713,7 +765,11 @@
       "reflexes": 41,
       "handling": 41,
       "aerial": 41,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 41,
+      "workRate": 84,
+      "goalkeeperPositioning": 54,
+      "distribution": 77
     },
     {
       "id": "p14",
@@ -764,7 +820,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 89
+      "kicking": 89,
+      "jumping": 28,
+      "workRate": 78,
+      "goalkeeperPositioning": 52,
+      "distribution": 89
     },
     {
       "id": "p15",
@@ -815,7 +875,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 89
+      "kicking": 89,
+      "jumping": 36,
+      "workRate": 83,
+      "goalkeeperPositioning": 69,
+      "distribution": 89
     },
     {
       "id": "p16",
@@ -866,7 +930,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 25,
+      "workRate": 71,
+      "goalkeeperPositioning": 49,
+      "distribution": 72
     },
     {
       "id": "p17",
@@ -917,7 +985,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 27,
+      "workRate": 84,
+      "goalkeeperPositioning": 57,
+      "distribution": 77
     },
     {
       "id": "p18",
@@ -968,7 +1040,11 @@
       "reflexes": 43,
       "handling": 43,
       "aerial": 43,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 43,
+      "workRate": 94,
+      "goalkeeperPositioning": 77,
+      "distribution": 81
     },
     {
       "id": "p19",
@@ -1019,7 +1095,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 33,
+      "workRate": 81,
+      "goalkeeperPositioning": 73,
+      "distribution": 74
     },
     {
       "id": "p20",
@@ -1070,7 +1150,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 25,
+      "workRate": 67,
+      "goalkeeperPositioning": 55,
+      "distribution": 73
     },
     {
       "id": "p21",
@@ -1121,7 +1205,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 34,
+      "workRate": 72,
+      "goalkeeperPositioning": 56,
+      "distribution": 70
     },
     {
       "id": "p22",
@@ -1172,7 +1260,11 @@
       "reflexes": 96,
       "handling": 96,
       "aerial": 96,
-      "kicking": 79
+      "kicking": 79,
+      "jumping": 96,
+      "workRate": 90,
+      "goalkeeperPositioning": 72,
+      "distribution": 79
     },
     {
       "id": "p23",
@@ -1223,7 +1315,11 @@
       "reflexes": 75,
       "handling": 75,
       "aerial": 75,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 75,
+      "workRate": 73,
+      "goalkeeperPositioning": 49,
+      "distribution": 62
     },
     {
       "id": "p24",
@@ -1274,7 +1370,11 @@
       "reflexes": 35,
       "handling": 35,
       "aerial": 35,
-      "kicking": 89
+      "kicking": 89,
+      "jumping": 35,
+      "workRate": 92,
+      "goalkeeperPositioning": 93,
+      "distribution": 89
     },
     {
       "id": "p25",
@@ -1325,7 +1425,11 @@
       "reflexes": 46,
       "handling": 46,
       "aerial": 46,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 46,
+      "workRate": 86,
+      "goalkeeperPositioning": 93,
+      "distribution": 80
     },
     {
       "id": "p26",
@@ -1376,7 +1480,11 @@
       "reflexes": 47,
       "handling": 47,
       "aerial": 47,
-      "kicking": 86
+      "kicking": 86,
+      "jumping": 47,
+      "workRate": 87,
+      "goalkeeperPositioning": 96,
+      "distribution": 86
     },
     {
       "id": "p27",
@@ -1427,7 +1535,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 37,
+      "workRate": 73,
+      "goalkeeperPositioning": 81,
+      "distribution": 72
     },
     {
       "id": "p28",
@@ -1478,7 +1590,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 92
+      "kicking": 92,
+      "jumping": 36,
+      "workRate": 89,
+      "goalkeeperPositioning": 96,
+      "distribution": 92
     },
     {
       "id": "p29",
@@ -1529,7 +1645,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 36,
+      "workRate": 81,
+      "goalkeeperPositioning": 92,
+      "distribution": 70
     },
     {
       "id": "p30",
@@ -1580,7 +1700,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 28,
+      "workRate": 71,
+      "goalkeeperPositioning": 80,
+      "distribution": 76
     },
     {
       "id": "p31",
@@ -1631,7 +1755,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 85
+      "kicking": 85,
+      "jumping": 29,
+      "workRate": 81,
+      "goalkeeperPositioning": 56,
+      "distribution": 85
     },
     {
       "id": "p32",
@@ -1682,7 +1810,11 @@
       "reflexes": 47,
       "handling": 47,
       "aerial": 47,
-      "kicking": 88
+      "kicking": 88,
+      "jumping": 47,
+      "workRate": 83,
+      "goalkeeperPositioning": 73,
+      "distribution": 88
     },
     {
       "id": "p33",
@@ -1733,7 +1865,11 @@
       "reflexes": 46,
       "handling": 46,
       "aerial": 46,
-      "kicking": 95
+      "kicking": 95,
+      "jumping": 46,
+      "workRate": 90,
+      "goalkeeperPositioning": 71,
+      "distribution": 95
     },
     {
       "id": "p34",
@@ -1784,7 +1920,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 85
+      "kicking": 85,
+      "jumping": 27,
+      "workRate": 76,
+      "goalkeeperPositioning": 64,
+      "distribution": 85
     },
     {
       "id": "p35",
@@ -1835,7 +1975,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 93
+      "kicking": 93,
+      "jumping": 39,
+      "workRate": 87,
+      "goalkeeperPositioning": 68,
+      "distribution": 93
     },
     {
       "id": "p36",
@@ -1886,7 +2030,11 @@
       "reflexes": 42,
       "handling": 42,
       "aerial": 42,
-      "kicking": 84
+      "kicking": 84,
+      "jumping": 42,
+      "workRate": 77,
+      "goalkeeperPositioning": 57,
+      "distribution": 84
     },
     {
       "id": "p37",
@@ -1937,7 +2085,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 25,
+      "workRate": 70,
+      "goalkeeperPositioning": 58,
+      "distribution": 82
     },
     {
       "id": "p38",
@@ -1988,7 +2140,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 25,
+      "workRate": 60,
+      "goalkeeperPositioning": 53,
+      "distribution": 78
     },
     {
       "id": "p39",
@@ -2039,7 +2195,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 67
+      "kicking": 67,
+      "jumping": 29,
+      "workRate": 74,
+      "goalkeeperPositioning": 60,
+      "distribution": 67
     },
     {
       "id": "p40",
@@ -2090,7 +2250,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 25,
+      "workRate": 81,
+      "goalkeeperPositioning": 61,
+      "distribution": 73
     },
     {
       "id": "p41",
@@ -2141,7 +2305,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 25,
+      "workRate": 70,
+      "goalkeeperPositioning": 59,
+      "distribution": 72
     },
     {
       "id": "p42",
@@ -2192,7 +2360,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 39,
+      "workRate": 84,
+      "goalkeeperPositioning": 73,
+      "distribution": 81
     },
     {
       "id": "p43",
@@ -2243,7 +2415,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 26,
+      "workRate": 69,
+      "goalkeeperPositioning": 51,
+      "distribution": 73
     },
     {
       "id": "p44",
@@ -2294,7 +2470,11 @@
       "reflexes": 87,
       "handling": 87,
       "aerial": 87,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 87,
+      "workRate": 83,
+      "goalkeeperPositioning": 51,
+      "distribution": 71
     },
     {
       "id": "p45",
@@ -2345,7 +2525,11 @@
       "reflexes": 87,
       "handling": 87,
       "aerial": 87,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 87,
+      "workRate": 82,
+      "goalkeeperPositioning": 58,
+      "distribution": 75
     },
     {
       "id": "p46",
@@ -2396,7 +2580,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 29,
+      "workRate": 84,
+      "goalkeeperPositioning": 81,
+      "distribution": 80
     },
     {
       "id": "p47",
@@ -2447,7 +2635,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 28,
+      "workRate": 71,
+      "goalkeeperPositioning": 80,
+      "distribution": 71
     },
     {
       "id": "p48",
@@ -2498,7 +2690,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 34,
+      "workRate": 83,
+      "goalkeeperPositioning": 88,
+      "distribution": 75
     },
     {
       "id": "p49",
@@ -2549,7 +2745,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 83
+      "kicking": 83,
+      "jumping": 34,
+      "workRate": 86,
+      "goalkeeperPositioning": 80,
+      "distribution": 83
     },
     {
       "id": "p50",
@@ -2600,7 +2800,11 @@
       "reflexes": 43,
       "handling": 43,
       "aerial": 43,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 43,
+      "workRate": 90,
+      "goalkeeperPositioning": 96,
+      "distribution": 81
     },
     {
       "id": "p51",
@@ -2651,7 +2855,11 @@
       "reflexes": 35,
       "handling": 35,
       "aerial": 35,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 35,
+      "workRate": 88,
+      "goalkeeperPositioning": 91,
+      "distribution": 76
     },
     {
       "id": "p52",
@@ -2702,7 +2910,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 63
+      "kicking": 63,
+      "jumping": 25,
+      "workRate": 82,
+      "goalkeeperPositioning": 84,
+      "distribution": 63
     },
     {
       "id": "p53",
@@ -2753,7 +2965,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 32,
+      "workRate": 74,
+      "goalkeeperPositioning": 50,
+      "distribution": 70
     },
     {
       "id": "p54",
@@ -2804,7 +3020,11 @@
       "reflexes": 46,
       "handling": 46,
       "aerial": 46,
-      "kicking": 94
+      "kicking": 94,
+      "jumping": 46,
+      "workRate": 81,
+      "goalkeeperPositioning": 77,
+      "distribution": 94
     },
     {
       "id": "p55",
@@ -2855,7 +3075,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 96
+      "kicking": 96,
+      "jumping": 32,
+      "workRate": 82,
+      "goalkeeperPositioning": 68,
+      "distribution": 96
     },
     {
       "id": "p56",
@@ -2906,7 +3130,11 @@
       "reflexes": 31,
       "handling": 31,
       "aerial": 31,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 31,
+      "workRate": 70,
+      "goalkeeperPositioning": 65,
+      "distribution": 82
     },
     {
       "id": "p57",
@@ -2957,7 +3185,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 33,
+      "workRate": 70,
+      "goalkeeperPositioning": 65,
+      "distribution": 75
     },
     {
       "id": "p58",
@@ -3008,7 +3240,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 25,
+      "workRate": 71,
+      "goalkeeperPositioning": 55,
+      "distribution": 77
     },
     {
       "id": "p59",
@@ -3059,7 +3295,11 @@
       "reflexes": 45,
       "handling": 45,
       "aerial": 45,
-      "kicking": 89
+      "kicking": 89,
+      "jumping": 45,
+      "workRate": 80,
+      "goalkeeperPositioning": 71,
+      "distribution": 89
     },
     {
       "id": "p60",
@@ -3110,7 +3350,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 30,
+      "workRate": 70,
+      "goalkeeperPositioning": 51,
+      "distribution": 78
     },
     {
       "id": "p61",
@@ -3161,7 +3405,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 74,
+      "goalkeeperPositioning": 49,
+      "distribution": 64
     },
     {
       "id": "p62",
@@ -3212,7 +3460,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 25,
+      "workRate": 72,
+      "goalkeeperPositioning": 57,
+      "distribution": 62
     },
     {
       "id": "p63",
@@ -3263,7 +3515,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 36,
+      "workRate": 82,
+      "goalkeeperPositioning": 69,
+      "distribution": 78
     },
     {
       "id": "p64",
@@ -3314,7 +3570,11 @@
       "reflexes": 40,
       "handling": 40,
       "aerial": 40,
-      "kicking": 87
+      "kicking": 87,
+      "jumping": 40,
+      "workRate": 88,
+      "goalkeeperPositioning": 70,
+      "distribution": 87
     },
     {
       "id": "p65",
@@ -3365,7 +3625,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 46,
+      "distribution": 58
     },
     {
       "id": "p66",
@@ -3416,7 +3680,11 @@
       "reflexes": 96,
       "handling": 96,
       "aerial": 96,
-      "kicking": 79
+      "kicking": 79,
+      "jumping": 96,
+      "workRate": 82,
+      "goalkeeperPositioning": 64,
+      "distribution": 79
     },
     {
       "id": "p67",
@@ -3467,7 +3735,11 @@
       "reflexes": 68,
       "handling": 68,
       "aerial": 68,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 68,
+      "workRate": 58,
+      "goalkeeperPositioning": 50,
+      "distribution": 59
     },
     {
       "id": "p68",
@@ -3518,7 +3790,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 25,
+      "workRate": 71,
+      "goalkeeperPositioning": 71,
+      "distribution": 59
     },
     {
       "id": "p69",
@@ -3569,7 +3845,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 68
+      "kicking": 68,
+      "jumping": 25,
+      "workRate": 78,
+      "goalkeeperPositioning": 82,
+      "distribution": 68
     },
     {
       "id": "p70",
@@ -3620,7 +3900,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 27,
+      "workRate": 69,
+      "goalkeeperPositioning": 73,
+      "distribution": 57
     },
     {
       "id": "p71",
@@ -3671,7 +3955,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 86
+      "kicking": 86,
+      "jumping": 39,
+      "workRate": 87,
+      "goalkeeperPositioning": 95,
+      "distribution": 86
     },
     {
       "id": "p72",
@@ -3722,7 +4010,11 @@
       "reflexes": 47,
       "handling": 47,
       "aerial": 47,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 47,
+      "workRate": 91,
+      "goalkeeperPositioning": 96,
+      "distribution": 82
     },
     {
       "id": "p73",
@@ -3773,7 +4065,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 88
+      "kicking": 88,
+      "jumping": 39,
+      "workRate": 88,
+      "goalkeeperPositioning": 84,
+      "distribution": 88
     },
     {
       "id": "p74",
@@ -3824,7 +4120,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 66
+      "kicking": 66,
+      "jumping": 28,
+      "workRate": 62,
+      "goalkeeperPositioning": 74,
+      "distribution": 66
     },
     {
       "id": "p75",
@@ -3875,7 +4175,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 86
+      "kicking": 86,
+      "jumping": 28,
+      "workRate": 72,
+      "goalkeeperPositioning": 52,
+      "distribution": 86
     },
     {
       "id": "p76",
@@ -3926,7 +4230,11 @@
       "reflexes": 42,
       "handling": 42,
       "aerial": 42,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 42,
+      "workRate": 84,
+      "goalkeeperPositioning": 67,
+      "distribution": 81
     },
     {
       "id": "p77",
@@ -3977,7 +4285,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 93
+      "kicking": 93,
+      "jumping": 34,
+      "workRate": 91,
+      "goalkeeperPositioning": 59,
+      "distribution": 93
     },
     {
       "id": "p78",
@@ -4028,7 +4340,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 88
+      "kicking": 88,
+      "jumping": 33,
+      "workRate": 90,
+      "goalkeeperPositioning": 61,
+      "distribution": 88
     },
     {
       "id": "p79",
@@ -4079,7 +4395,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 29,
+      "workRate": 68,
+      "goalkeeperPositioning": 59,
+      "distribution": 80
     },
     {
       "id": "p80",
@@ -4130,7 +4450,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 88
+      "kicking": 88,
+      "jumping": 39,
+      "workRate": 75,
+      "goalkeeperPositioning": 69,
+      "distribution": 88
     },
     {
       "id": "p81",
@@ -4181,7 +4505,11 @@
       "reflexes": 31,
       "handling": 31,
       "aerial": 31,
-      "kicking": 95
+      "kicking": 95,
+      "jumping": 31,
+      "workRate": 82,
+      "goalkeeperPositioning": 64,
+      "distribution": 95
     },
     {
       "id": "p82",
@@ -4232,7 +4560,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 68
+      "kicking": 68,
+      "jumping": 27,
+      "workRate": 69,
+      "goalkeeperPositioning": 51,
+      "distribution": 68
     },
     {
       "id": "p83",
@@ -4283,7 +4615,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 36,
+      "workRate": 66,
+      "goalkeeperPositioning": 56,
+      "distribution": 76
     },
     {
       "id": "p84",
@@ -4334,7 +4670,11 @@
       "reflexes": 38,
       "handling": 38,
       "aerial": 38,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 38,
+      "workRate": 79,
+      "goalkeeperPositioning": 70,
+      "distribution": 73
     },
     {
       "id": "p85",
@@ -4385,7 +4725,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 34,
+      "workRate": 75,
+      "goalkeeperPositioning": 63,
+      "distribution": 80
     },
     {
       "id": "p86",
@@ -4436,7 +4780,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 66
+      "kicking": 66,
+      "jumping": 25,
+      "workRate": 66,
+      "goalkeeperPositioning": 55,
+      "distribution": 66
     },
     {
       "id": "p87",
@@ -4487,7 +4835,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 55
+      "kicking": 55,
+      "jumping": 25,
+      "workRate": 70,
+      "goalkeeperPositioning": 46,
+      "distribution": 55
     },
     {
       "id": "p88",
@@ -4538,7 +4890,11 @@
       "reflexes": 76,
       "handling": 76,
       "aerial": 76,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 76,
+      "workRate": 76,
+      "goalkeeperPositioning": 54,
+      "distribution": 73
     },
     {
       "id": "p89",
@@ -4589,7 +4945,11 @@
       "reflexes": 81,
       "handling": 81,
       "aerial": 81,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 81,
+      "workRate": 68,
+      "goalkeeperPositioning": 63,
+      "distribution": 78
     },
     {
       "id": "p90",
@@ -4640,7 +5000,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 71,
+      "goalkeeperPositioning": 77,
+      "distribution": 58
     },
     {
       "id": "p91",
@@ -4691,7 +5055,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 33,
+      "workRate": 80,
+      "goalkeeperPositioning": 86,
+      "distribution": 76
     },
     {
       "id": "p92",
@@ -4742,7 +5110,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 68
+      "kicking": 68,
+      "jumping": 25,
+      "workRate": 75,
+      "goalkeeperPositioning": 76,
+      "distribution": 68
     },
     {
       "id": "p93",
@@ -4793,7 +5165,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 27,
+      "workRate": 78,
+      "goalkeeperPositioning": 88,
+      "distribution": 81
     },
     {
       "id": "p94",
@@ -4844,7 +5220,11 @@
       "reflexes": 38,
       "handling": 38,
       "aerial": 38,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 38,
+      "workRate": 76,
+      "goalkeeperPositioning": 90,
+      "distribution": 72
     },
     {
       "id": "p95",
@@ -4895,7 +5275,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 36,
+      "workRate": 70,
+      "goalkeeperPositioning": 78,
+      "distribution": 74
     },
     {
       "id": "p96",
@@ -4946,7 +5330,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 26,
+      "workRate": 65,
+      "goalkeeperPositioning": 77,
+      "distribution": 57
     },
     {
       "id": "p97",
@@ -4997,7 +5385,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 88
+      "kicking": 88,
+      "jumping": 27,
+      "workRate": 77,
+      "goalkeeperPositioning": 58,
+      "distribution": 88
     },
     {
       "id": "p98",
@@ -5048,7 +5440,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 30,
+      "workRate": 69,
+      "goalkeeperPositioning": 59,
+      "distribution": 69
     },
     {
       "id": "p99",
@@ -5099,7 +5495,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 84
+      "kicking": 84,
+      "jumping": 34,
+      "workRate": 74,
+      "goalkeeperPositioning": 65,
+      "distribution": 84
     },
     {
       "id": "p100",
@@ -5150,7 +5550,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 87
+      "kicking": 87,
+      "jumping": 25,
+      "workRate": 75,
+      "goalkeeperPositioning": 63,
+      "distribution": 87
     },
     {
       "id": "p101",
@@ -5201,7 +5605,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 96
+      "kicking": 96,
+      "jumping": 34,
+      "workRate": 87,
+      "goalkeeperPositioning": 62,
+      "distribution": 96
     },
     {
       "id": "p102",
@@ -5252,7 +5660,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 87
+      "kicking": 87,
+      "jumping": 30,
+      "workRate": 86,
+      "goalkeeperPositioning": 63,
+      "distribution": 87
     },
     {
       "id": "p103",
@@ -5303,7 +5715,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 28,
+      "workRate": 67,
+      "goalkeeperPositioning": 45,
+      "distribution": 69
     },
     {
       "id": "p104",
@@ -5354,7 +5770,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 37,
+      "distribution": 71
     },
     {
       "id": "p105",
@@ -5405,7 +5825,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 66
+      "kicking": 66,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 49,
+      "distribution": 66
     },
     {
       "id": "p106",
@@ -5456,7 +5880,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 27,
+      "workRate": 74,
+      "goalkeeperPositioning": 60,
+      "distribution": 73
     },
     {
       "id": "p107",
@@ -5507,7 +5935,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 60
+      "kicking": 60,
+      "jumping": 25,
+      "workRate": 68,
+      "goalkeeperPositioning": 55,
+      "distribution": 60
     },
     {
       "id": "p108",
@@ -5558,7 +5990,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 33,
+      "workRate": 86,
+      "goalkeeperPositioning": 69,
+      "distribution": 77
     },
     {
       "id": "p109",
@@ -5609,7 +6045,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 30,
+      "workRate": 79,
+      "goalkeeperPositioning": 49,
+      "distribution": 74
     },
     {
       "id": "p110",
@@ -5660,7 +6100,11 @@
       "reflexes": 66,
       "handling": 66,
       "aerial": 66,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 66,
+      "workRate": 60,
+      "goalkeeperPositioning": 42,
+      "distribution": 65
     },
     {
       "id": "p111",
@@ -5711,7 +6155,11 @@
       "reflexes": 81,
       "handling": 81,
       "aerial": 81,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 81,
+      "workRate": 74,
+      "goalkeeperPositioning": 48,
+      "distribution": 62
     },
     {
       "id": "p112",
@@ -5762,7 +6210,11 @@
       "reflexes": 40,
       "handling": 40,
       "aerial": 40,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 40,
+      "workRate": 88,
+      "goalkeeperPositioning": 96,
+      "distribution": 76
     },
     {
       "id": "p113",
@@ -5813,7 +6265,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 25,
+      "workRate": 64,
+      "goalkeeperPositioning": 70,
+      "distribution": 70
     },
     {
       "id": "p114",
@@ -5864,7 +6320,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 67
+      "kicking": 67,
+      "jumping": 37,
+      "workRate": 70,
+      "goalkeeperPositioning": 76,
+      "distribution": 67
     },
     {
       "id": "p115",
@@ -5915,7 +6375,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 33,
+      "workRate": 76,
+      "goalkeeperPositioning": 87,
+      "distribution": 76
     },
     {
       "id": "p116",
@@ -5966,7 +6430,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 32,
+      "workRate": 77,
+      "goalkeeperPositioning": 73,
+      "distribution": 75
     },
     {
       "id": "p117",
@@ -6017,7 +6485,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 26,
+      "workRate": 71,
+      "goalkeeperPositioning": 82,
+      "distribution": 56
     },
     {
       "id": "p118",
@@ -6068,7 +6540,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 26,
+      "workRate": 77,
+      "goalkeeperPositioning": 74,
+      "distribution": 65
     },
     {
       "id": "p119",
@@ -6119,7 +6595,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 79
+      "kicking": 79,
+      "jumping": 30,
+      "workRate": 83,
+      "goalkeeperPositioning": 56,
+      "distribution": 79
     },
     {
       "id": "p120",
@@ -6170,7 +6650,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 84
+      "kicking": 84,
+      "jumping": 39,
+      "workRate": 79,
+      "goalkeeperPositioning": 66,
+      "distribution": 84
     },
     {
       "id": "p121",
@@ -6221,7 +6705,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 30,
+      "workRate": 83,
+      "goalkeeperPositioning": 64,
+      "distribution": 77
     },
     {
       "id": "p122",
@@ -6272,7 +6760,11 @@
       "reflexes": 31,
       "handling": 31,
       "aerial": 31,
-      "kicking": 84
+      "kicking": 84,
+      "jumping": 31,
+      "workRate": 78,
+      "goalkeeperPositioning": 69,
+      "distribution": 84
     },
     {
       "id": "p123",
@@ -6323,7 +6815,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 34,
+      "workRate": 76,
+      "goalkeeperPositioning": 52,
+      "distribution": 73
     },
     {
       "id": "p124",
@@ -6374,7 +6870,11 @@
       "reflexes": 39,
       "handling": 39,
       "aerial": 39,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 39,
+      "workRate": 80,
+      "goalkeeperPositioning": 63,
+      "distribution": 82
     },
     {
       "id": "p125",
@@ -6425,7 +6925,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 34,
+      "workRate": 77,
+      "goalkeeperPositioning": 62,
+      "distribution": 80
     },
     {
       "id": "p126",
@@ -6476,7 +6980,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 25,
+      "workRate": 61,
+      "goalkeeperPositioning": 49,
+      "distribution": 72
     },
     {
       "id": "p127",
@@ -6527,7 +7035,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 37,
+      "workRate": 77,
+      "goalkeeperPositioning": 61,
+      "distribution": 69
     },
     {
       "id": "p128",
@@ -6578,7 +7090,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 33,
+      "workRate": 68,
+      "goalkeeperPositioning": 55,
+      "distribution": 75
     },
     {
       "id": "p129",
@@ -6629,7 +7145,11 @@
       "reflexes": 36,
       "handling": 36,
       "aerial": 36,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 36,
+      "workRate": 73,
+      "goalkeeperPositioning": 65,
+      "distribution": 73
     },
     {
       "id": "p130",
@@ -6680,7 +7200,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 74,
+      "goalkeeperPositioning": 50,
+      "distribution": 64
     },
     {
       "id": "p131",
@@ -6731,7 +7255,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 54
+      "kicking": 54,
+      "jumping": 25,
+      "workRate": 59,
+      "goalkeeperPositioning": 40,
+      "distribution": 54
     },
     {
       "id": "p132",
@@ -6782,7 +7310,11 @@
       "reflexes": 73,
       "handling": 73,
       "aerial": 73,
-      "kicking": 67
+      "kicking": 67,
+      "jumping": 73,
+      "workRate": 75,
+      "goalkeeperPositioning": 50,
+      "distribution": 67
     },
     {
       "id": "p133",
@@ -6833,7 +7365,11 @@
       "reflexes": 70,
       "handling": 70,
       "aerial": 70,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 70,
+      "workRate": 57,
+      "goalkeeperPositioning": 45,
+      "distribution": 65
     },
     {
       "id": "p134",
@@ -6884,7 +7420,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 64,
+      "goalkeeperPositioning": 84,
+      "distribution": 58
     },
     {
       "id": "p135",
@@ -6935,7 +7475,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 66
+      "kicking": 66,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 77,
+      "distribution": 66
     },
     {
       "id": "p136",
@@ -6986,7 +7530,11 @@
       "reflexes": 38,
       "handling": 38,
       "aerial": 38,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 38,
+      "workRate": 79,
+      "goalkeeperPositioning": 87,
+      "distribution": 78
     },
     {
       "id": "p137",
@@ -7037,7 +7585,11 @@
       "reflexes": 35,
       "handling": 35,
       "aerial": 35,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 35,
+      "workRate": 76,
+      "goalkeeperPositioning": 80,
+      "distribution": 71
     },
     {
       "id": "p138",
@@ -7088,7 +7640,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 28,
+      "workRate": 71,
+      "goalkeeperPositioning": 79,
+      "distribution": 74
     },
     {
       "id": "p139",
@@ -7139,7 +7695,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 30,
+      "workRate": 72,
+      "goalkeeperPositioning": 82,
+      "distribution": 74
     },
     {
       "id": "p140",
@@ -7190,7 +7750,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 48
+      "kicking": 48,
+      "jumping": 25,
+      "workRate": 61,
+      "goalkeeperPositioning": 59,
+      "distribution": 48
     },
     {
       "id": "p141",
@@ -7241,7 +7805,11 @@
       "reflexes": 35,
       "handling": 35,
       "aerial": 35,
-      "kicking": 88
+      "kicking": 88,
+      "jumping": 35,
+      "workRate": 81,
+      "goalkeeperPositioning": 61,
+      "distribution": 88
     },
     {
       "id": "p142",
@@ -7292,7 +7860,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 25,
+      "workRate": 78,
+      "goalkeeperPositioning": 63,
+      "distribution": 81
     },
     {
       "id": "p143",
@@ -7343,7 +7915,11 @@
       "reflexes": 38,
       "handling": 38,
       "aerial": 38,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 38,
+      "workRate": 76,
+      "goalkeeperPositioning": 58,
+      "distribution": 78
     },
     {
       "id": "p144",
@@ -7394,7 +7970,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 79
+      "kicking": 79,
+      "jumping": 32,
+      "workRate": 74,
+      "goalkeeperPositioning": 63,
+      "distribution": 79
     },
     {
       "id": "p145",
@@ -7445,7 +8025,11 @@
       "reflexes": 31,
       "handling": 31,
       "aerial": 31,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 31,
+      "workRate": 66,
+      "goalkeeperPositioning": 53,
+      "distribution": 70
     },
     {
       "id": "p146",
@@ -7496,7 +8080,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 81
+      "kicking": 81,
+      "jumping": 29,
+      "workRate": 78,
+      "goalkeeperPositioning": 59,
+      "distribution": 81
     },
     {
       "id": "p147",
@@ -7547,7 +8135,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 79
+      "kicking": 79,
+      "jumping": 27,
+      "workRate": 62,
+      "goalkeeperPositioning": 55,
+      "distribution": 79
     },
     {
       "id": "p148",
@@ -7598,7 +8190,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 55
+      "kicking": 55,
+      "jumping": 25,
+      "workRate": 59,
+      "goalkeeperPositioning": 40,
+      "distribution": 55
     },
     {
       "id": "p149",
@@ -7649,7 +8245,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 37,
+      "workRate": 72,
+      "goalkeeperPositioning": 54,
+      "distribution": 80
     },
     {
       "id": "p150",
@@ -7700,7 +8300,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 32,
+      "workRate": 75,
+      "goalkeeperPositioning": 54,
+      "distribution": 82
     },
     {
       "id": "p151",
@@ -7751,7 +8355,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 37,
+      "workRate": 74,
+      "goalkeeperPositioning": 62,
+      "distribution": 71
     },
     {
       "id": "p152",
@@ -7802,7 +8410,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 45,
+      "distribution": 57
     },
     {
       "id": "p153",
@@ -7853,7 +8465,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 64,
+      "goalkeeperPositioning": 42,
+      "distribution": 58
     },
     {
       "id": "p154",
@@ -7904,7 +8520,11 @@
       "reflexes": 89,
       "handling": 89,
       "aerial": 89,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 89,
+      "workRate": 74,
+      "goalkeeperPositioning": 61,
+      "distribution": 78
     },
     {
       "id": "p155",
@@ -7955,7 +8575,11 @@
       "reflexes": 67,
       "handling": 67,
       "aerial": 67,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 67,
+      "workRate": 52,
+      "goalkeeperPositioning": 38,
+      "distribution": 59
     },
     {
       "id": "p156",
@@ -8006,7 +8630,11 @@
       "reflexes": 31,
       "handling": 31,
       "aerial": 31,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 31,
+      "workRate": 71,
+      "goalkeeperPositioning": 77,
+      "distribution": 65
     },
     {
       "id": "p157",
@@ -8057,7 +8685,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 25,
+      "workRate": 68,
+      "goalkeeperPositioning": 74,
+      "distribution": 56
     },
     {
       "id": "p158",
@@ -8108,7 +8740,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 26,
+      "workRate": 71,
+      "goalkeeperPositioning": 79,
+      "distribution": 73
     },
     {
       "id": "p159",
@@ -8159,7 +8795,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 33,
+      "workRate": 75,
+      "goalkeeperPositioning": 85,
+      "distribution": 72
     },
     {
       "id": "p160",
@@ -8210,7 +8850,11 @@
       "reflexes": 35,
       "handling": 35,
       "aerial": 35,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 35,
+      "workRate": 82,
+      "goalkeeperPositioning": 81,
+      "distribution": 80
     },
     {
       "id": "p161",
@@ -8261,7 +8905,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 67
+      "kicking": 67,
+      "jumping": 25,
+      "workRate": 84,
+      "goalkeeperPositioning": 79,
+      "distribution": 67
     },
     {
       "id": "p162",
@@ -8312,7 +8960,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 57,
+      "goalkeeperPositioning": 72,
+      "distribution": 57
     },
     {
       "id": "p163",
@@ -8363,7 +9015,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 33,
+      "workRate": 71,
+      "goalkeeperPositioning": 50,
+      "distribution": 74
     },
     {
       "id": "p164",
@@ -8414,7 +9070,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 78
+      "kicking": 78,
+      "jumping": 25,
+      "workRate": 61,
+      "goalkeeperPositioning": 42,
+      "distribution": 78
     },
     {
       "id": "p165",
@@ -8465,7 +9125,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 84
+      "kicking": 84,
+      "jumping": 33,
+      "workRate": 78,
+      "goalkeeperPositioning": 49,
+      "distribution": 84
     },
     {
       "id": "p166",
@@ -8516,7 +9180,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 50,
+      "distribution": 65
     },
     {
       "id": "p167",
@@ -8567,7 +9235,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 26,
+      "workRate": 63,
+      "goalkeeperPositioning": 42,
+      "distribution": 69
     },
     {
       "id": "p168",
@@ -8618,7 +9290,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 25,
+      "workRate": 73,
+      "goalkeeperPositioning": 54,
+      "distribution": 71
     },
     {
       "id": "p169",
@@ -8669,7 +9345,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 53,
+      "distribution": 72
     },
     {
       "id": "p170",
@@ -8720,7 +9400,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 25,
+      "workRate": 60,
+      "goalkeeperPositioning": 35,
+      "distribution": 65
     },
     {
       "id": "p171",
@@ -8771,7 +9455,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 25,
+      "workRate": 68,
+      "goalkeeperPositioning": 50,
+      "distribution": 59
     },
     {
       "id": "p172",
@@ -8822,7 +9510,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 52
+      "kicking": 52,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 41,
+      "distribution": 52
     },
     {
       "id": "p173",
@@ -8873,7 +9565,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 53,
+      "distribution": 69
     },
     {
       "id": "p174",
@@ -8924,7 +9620,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 32,
+      "workRate": 64,
+      "goalkeeperPositioning": 47,
+      "distribution": 72
     },
     {
       "id": "p175",
@@ -8975,7 +9675,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 34,
+      "distribution": 56
     },
     {
       "id": "p176",
@@ -9026,7 +9730,11 @@
       "reflexes": 81,
       "handling": 81,
       "aerial": 81,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 81,
+      "workRate": 74,
+      "goalkeeperPositioning": 51,
+      "distribution": 71
     },
     {
       "id": "p177",
@@ -9077,7 +9785,11 @@
       "reflexes": 60,
       "handling": 60,
       "aerial": 60,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 60,
+      "workRate": 61,
+      "goalkeeperPositioning": 42,
+      "distribution": 57
     },
     {
       "id": "p178",
@@ -9128,7 +9840,11 @@
       "reflexes": 28,
       "handling": 28,
       "aerial": 28,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 28,
+      "workRate": 70,
+      "goalkeeperPositioning": 83,
+      "distribution": 69
     },
     {
       "id": "p179",
@@ -9179,7 +9895,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 29,
+      "workRate": 76,
+      "goalkeeperPositioning": 87,
+      "distribution": 69
     },
     {
       "id": "p180",
@@ -9230,7 +9950,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 61
+      "kicking": 61,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 74,
+      "distribution": 61
     },
     {
       "id": "p181",
@@ -9281,7 +10005,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 73,
+      "goalkeeperPositioning": 66,
+      "distribution": 64
     },
     {
       "id": "p182",
@@ -9332,7 +10060,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 25,
+      "workRate": 58,
+      "goalkeeperPositioning": 67,
+      "distribution": 56
     },
     {
       "id": "p183",
@@ -9383,7 +10115,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 25,
+      "workRate": 72,
+      "goalkeeperPositioning": 82,
+      "distribution": 77
     },
     {
       "id": "p184",
@@ -9434,7 +10170,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 49
+      "kicking": 49,
+      "jumping": 25,
+      "workRate": 53,
+      "goalkeeperPositioning": 72,
+      "distribution": 49
     },
     {
       "id": "p185",
@@ -9485,7 +10225,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 25,
+      "workRate": 73,
+      "goalkeeperPositioning": 53,
+      "distribution": 71
     },
     {
       "id": "p186",
@@ -9536,7 +10280,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 63
+      "kicking": 63,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 46,
+      "distribution": 63
     },
     {
       "id": "p187",
@@ -9587,7 +10335,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 61
+      "kicking": 61,
+      "jumping": 25,
+      "workRate": 67,
+      "goalkeeperPositioning": 49,
+      "distribution": 61
     },
     {
       "id": "p188",
@@ -9638,7 +10390,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 83
+      "kicking": 83,
+      "jumping": 30,
+      "workRate": 71,
+      "goalkeeperPositioning": 65,
+      "distribution": 83
     },
     {
       "id": "p189",
@@ -9689,7 +10445,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 73
+      "kicking": 73,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 49,
+      "distribution": 73
     },
     {
       "id": "p190",
@@ -9740,7 +10500,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 25,
+      "workRate": 78,
+      "goalkeeperPositioning": 53,
+      "distribution": 76
     },
     {
       "id": "p191",
@@ -9791,7 +10555,11 @@
       "reflexes": 31,
       "handling": 31,
       "aerial": 31,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 31,
+      "workRate": 71,
+      "goalkeeperPositioning": 48,
+      "distribution": 74
     },
     {
       "id": "p192",
@@ -9842,7 +10610,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 66
+      "kicking": 66,
+      "jumping": 25,
+      "workRate": 74,
+      "goalkeeperPositioning": 49,
+      "distribution": 66
     },
     {
       "id": "p193",
@@ -9893,7 +10665,11 @@
       "reflexes": 30,
       "handling": 30,
       "aerial": 30,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 30,
+      "workRate": 75,
+      "goalkeeperPositioning": 64,
+      "distribution": 77
     },
     {
       "id": "p194",
@@ -9944,7 +10720,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 60
+      "kicking": 60,
+      "jumping": 25,
+      "workRate": 67,
+      "goalkeeperPositioning": 48,
+      "distribution": 60
     },
     {
       "id": "p195",
@@ -9995,7 +10775,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 58,
+      "distribution": 76
     },
     {
       "id": "p196",
@@ -10046,7 +10830,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 60
+      "kicking": 60,
+      "jumping": 25,
+      "workRate": 54,
+      "goalkeeperPositioning": 37,
+      "distribution": 60
     },
     {
       "id": "p197",
@@ -10097,7 +10885,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 53,
+      "distribution": 56
     },
     {
       "id": "p198",
@@ -10148,7 +10940,11 @@
       "reflexes": 78,
       "handling": 78,
       "aerial": 78,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 78,
+      "workRate": 69,
+      "goalkeeperPositioning": 57,
+      "distribution": 62
     },
     {
       "id": "p199",
@@ -10199,7 +10995,11 @@
       "reflexes": 58,
       "handling": 58,
       "aerial": 58,
-      "kicking": 48
+      "kicking": 48,
+      "jumping": 58,
+      "workRate": 52,
+      "goalkeeperPositioning": 32,
+      "distribution": 48
     },
     {
       "id": "p200",
@@ -10250,7 +11050,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 69
+      "kicking": 69,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 71,
+      "distribution": 69
     },
     {
       "id": "p201",
@@ -10301,7 +11105,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 49
+      "kicking": 49,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 62,
+      "distribution": 49
     },
     {
       "id": "p202",
@@ -10352,7 +11160,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 50
+      "kicking": 50,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 73,
+      "distribution": 50
     },
     {
       "id": "p203",
@@ -10403,7 +11215,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 67,
+      "goalkeeperPositioning": 71,
+      "distribution": 64
     },
     {
       "id": "p204",
@@ -10454,7 +11270,11 @@
       "reflexes": 37,
       "handling": 37,
       "aerial": 37,
-      "kicking": 63
+      "kicking": 63,
+      "jumping": 37,
+      "workRate": 72,
+      "goalkeeperPositioning": 80,
+      "distribution": 63
     },
     {
       "id": "p205",
@@ -10505,7 +11325,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 61,
+      "goalkeeperPositioning": 77,
+      "distribution": 57
     },
     {
       "id": "p206",
@@ -10556,7 +11380,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 49
+      "kicking": 49,
+      "jumping": 25,
+      "workRate": 60,
+      "goalkeeperPositioning": 59,
+      "distribution": 49
     },
     {
       "id": "p207",
@@ -10607,7 +11435,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 65
+      "kicking": 65,
+      "jumping": 25,
+      "workRate": 60,
+      "goalkeeperPositioning": 35,
+      "distribution": 65
     },
     {
       "id": "p208",
@@ -10658,7 +11490,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 25,
+      "workRate": 69,
+      "goalkeeperPositioning": 48,
+      "distribution": 62
     },
     {
       "id": "p209",
@@ -10709,7 +11545,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 80
+      "kicking": 80,
+      "jumping": 25,
+      "workRate": 75,
+      "goalkeeperPositioning": 55,
+      "distribution": 80
     },
     {
       "id": "p210",
@@ -10760,7 +11600,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 72
+      "kicking": 72,
+      "jumping": 26,
+      "workRate": 66,
+      "goalkeeperPositioning": 54,
+      "distribution": 72
     },
     {
       "id": "p211",
@@ -10811,7 +11655,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 66,
+      "goalkeeperPositioning": 48,
+      "distribution": 64
     },
     {
       "id": "p212",
@@ -10862,7 +11710,11 @@
       "reflexes": 34,
       "handling": 34,
       "aerial": 34,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 34,
+      "workRate": 78,
+      "goalkeeperPositioning": 61,
+      "distribution": 75
     },
     {
       "id": "p213",
@@ -10913,7 +11765,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 25,
+      "workRate": 71,
+      "goalkeeperPositioning": 43,
+      "distribution": 82
     },
     {
       "id": "p214",
@@ -10964,7 +11820,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 61
+      "kicking": 61,
+      "jumping": 25,
+      "workRate": 59,
+      "goalkeeperPositioning": 42,
+      "distribution": 61
     },
     {
       "id": "p215",
@@ -11015,7 +11875,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 25,
+      "workRate": 66,
+      "goalkeeperPositioning": 45,
+      "distribution": 56
     },
     {
       "id": "p216",
@@ -11066,7 +11930,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 60
+      "kicking": 60,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 47,
+      "distribution": 60
     },
     {
       "id": "p217",
@@ -11117,7 +11985,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 60
+      "kicking": 60,
+      "jumping": 25,
+      "workRate": 75,
+      "goalkeeperPositioning": 46,
+      "distribution": 60
     },
     {
       "id": "p218",
@@ -11168,7 +12040,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 67
+      "kicking": 67,
+      "jumping": 25,
+      "workRate": 67,
+      "goalkeeperPositioning": 45,
+      "distribution": 67
     },
     {
       "id": "p219",
@@ -11219,7 +12095,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 50
+      "kicking": 50,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 36,
+      "distribution": 50
     },
     {
       "id": "p220",
@@ -11270,7 +12150,11 @@
       "reflexes": 73,
       "handling": 73,
       "aerial": 73,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 73,
+      "workRate": 63,
+      "goalkeeperPositioning": 52,
+      "distribution": 62
     },
     {
       "id": "p221",
@@ -11321,7 +12205,11 @@
       "reflexes": 75,
       "handling": 75,
       "aerial": 75,
-      "kicking": 51
+      "kicking": 51,
+      "jumping": 75,
+      "workRate": 68,
+      "goalkeeperPositioning": 38,
+      "distribution": 51
     },
     {
       "id": "p222",
@@ -11372,7 +12260,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 68,
+      "goalkeeperPositioning": 75,
+      "distribution": 64
     },
     {
       "id": "p223",
@@ -11423,7 +12315,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 65,
+      "goalkeeperPositioning": 73,
+      "distribution": 57
     },
     {
       "id": "p224",
@@ -11474,7 +12370,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 25,
+      "workRate": 61,
+      "goalkeeperPositioning": 69,
+      "distribution": 59
     },
     {
       "id": "p225",
@@ -11525,7 +12425,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 25,
+      "workRate": 66,
+      "goalkeeperPositioning": 74,
+      "distribution": 59
     },
     {
       "id": "p226",
@@ -11576,7 +12480,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 58,
+      "goalkeeperPositioning": 70,
+      "distribution": 57
     },
     {
       "id": "p227",
@@ -11627,7 +12535,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 59,
+      "goalkeeperPositioning": 69,
+      "distribution": 58
     },
     {
       "id": "p228",
@@ -11678,7 +12590,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 52
+      "kicking": 52,
+      "jumping": 25,
+      "workRate": 60,
+      "goalkeeperPositioning": 70,
+      "distribution": 52
     },
     {
       "id": "p229",
@@ -11729,7 +12645,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 77
+      "kicking": 77,
+      "jumping": 25,
+      "workRate": 74,
+      "goalkeeperPositioning": 60,
+      "distribution": 77
     },
     {
       "id": "p230",
@@ -11780,7 +12700,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 25,
+      "workRate": 63,
+      "goalkeeperPositioning": 46,
+      "distribution": 74
     },
     {
       "id": "p231",
@@ -11831,7 +12755,11 @@
       "reflexes": 33,
       "handling": 33,
       "aerial": 33,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 33,
+      "workRate": 75,
+      "goalkeeperPositioning": 51,
+      "distribution": 75
     },
     {
       "id": "p232",
@@ -11882,7 +12810,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 25,
+      "workRate": 58,
+      "goalkeeperPositioning": 51,
+      "distribution": 75
     },
     {
       "id": "p233",
@@ -11933,7 +12865,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 63
+      "kicking": 63,
+      "jumping": 25,
+      "workRate": 64,
+      "goalkeeperPositioning": 36,
+      "distribution": 63
     },
     {
       "id": "p234",
@@ -11984,7 +12920,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 76
+      "kicking": 76,
+      "jumping": 25,
+      "workRate": 59,
+      "goalkeeperPositioning": 47,
+      "distribution": 76
     },
     {
       "id": "p235",
@@ -12035,7 +12975,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 25,
+      "workRate": 53,
+      "goalkeeperPositioning": 37,
+      "distribution": 71
     },
     {
       "id": "p236",
@@ -12086,7 +13030,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 25,
+      "workRate": 69,
+      "goalkeeperPositioning": 48,
+      "distribution": 70
     },
     {
       "id": "p237",
@@ -12137,7 +13085,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 56
+      "kicking": 56,
+      "jumping": 25,
+      "workRate": 64,
+      "goalkeeperPositioning": 45,
+      "distribution": 56
     },
     {
       "id": "p238",
@@ -12188,7 +13140,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 66,
+      "goalkeeperPositioning": 36,
+      "distribution": 58
     },
     {
       "id": "p239",
@@ -12239,7 +13195,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 49,
+      "goalkeeperPositioning": 45,
+      "distribution": 57
     },
     {
       "id": "p240",
@@ -12290,7 +13250,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 61
+      "kicking": 61,
+      "jumping": 25,
+      "workRate": 72,
+      "goalkeeperPositioning": 54,
+      "distribution": 61
     },
     {
       "id": "p241",
@@ -12341,7 +13305,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 52
+      "kicking": 52,
+      "jumping": 25,
+      "workRate": 56,
+      "goalkeeperPositioning": 35,
+      "distribution": 52
     },
     {
       "id": "p242",
@@ -12392,7 +13360,11 @@
       "reflexes": 77,
       "handling": 77,
       "aerial": 77,
-      "kicking": 62
+      "kicking": 62,
+      "jumping": 77,
+      "workRate": 70,
+      "goalkeeperPositioning": 59,
+      "distribution": 62
     },
     {
       "id": "p243",
@@ -12443,7 +13415,11 @@
       "reflexes": 68,
       "handling": 68,
       "aerial": 68,
-      "kicking": 47
+      "kicking": 47,
+      "jumping": 68,
+      "workRate": 66,
+      "goalkeeperPositioning": 35,
+      "distribution": 47
     },
     {
       "id": "p244",
@@ -12494,7 +13470,11 @@
       "reflexes": 32,
       "handling": 32,
       "aerial": 32,
-      "kicking": 63
+      "kicking": 63,
+      "jumping": 32,
+      "workRate": 68,
+      "goalkeeperPositioning": 69,
+      "distribution": 63
     },
     {
       "id": "p245",
@@ -12545,7 +13525,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 57
+      "kicking": 57,
+      "jumping": 25,
+      "workRate": 72,
+      "goalkeeperPositioning": 68,
+      "distribution": 57
     },
     {
       "id": "p246",
@@ -12596,7 +13580,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 25,
+      "workRate": 62,
+      "goalkeeperPositioning": 71,
+      "distribution": 59
     },
     {
       "id": "p247",
@@ -12647,7 +13635,11 @@
       "reflexes": 27,
       "handling": 27,
       "aerial": 27,
-      "kicking": 59
+      "kicking": 59,
+      "jumping": 27,
+      "workRate": 74,
+      "goalkeeperPositioning": 80,
+      "distribution": 59
     },
     {
       "id": "p248",
@@ -12698,7 +13690,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 71
+      "kicking": 71,
+      "jumping": 29,
+      "workRate": 62,
+      "goalkeeperPositioning": 70,
+      "distribution": 71
     },
     {
       "id": "p249",
@@ -12749,7 +13745,11 @@
       "reflexes": 26,
       "handling": 26,
       "aerial": 26,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 26,
+      "workRate": 66,
+      "goalkeeperPositioning": 67,
+      "distribution": 58
     },
     {
       "id": "p250",
@@ -12800,7 +13800,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 44
+      "kicking": 44,
+      "jumping": 25,
+      "workRate": 55,
+      "goalkeeperPositioning": 58,
+      "distribution": 44
     },
     {
       "id": "p251",
@@ -12851,7 +13855,11 @@
       "reflexes": 29,
       "handling": 29,
       "aerial": 29,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 29,
+      "workRate": 69,
+      "goalkeeperPositioning": 49,
+      "distribution": 75
     },
     {
       "id": "p252",
@@ -12902,7 +13910,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 68
+      "kicking": 68,
+      "jumping": 25,
+      "workRate": 68,
+      "goalkeeperPositioning": 50,
+      "distribution": 68
     },
     {
       "id": "p253",
@@ -12953,7 +13965,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 70
+      "kicking": 70,
+      "jumping": 25,
+      "workRate": 64,
+      "goalkeeperPositioning": 50,
+      "distribution": 70
     },
     {
       "id": "p254",
@@ -13004,7 +14020,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 82
+      "kicking": 82,
+      "jumping": 25,
+      "workRate": 74,
+      "goalkeeperPositioning": 47,
+      "distribution": 82
     },
     {
       "id": "p255",
@@ -13055,7 +14075,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 74
+      "kicking": 74,
+      "jumping": 25,
+      "workRate": 78,
+      "goalkeeperPositioning": 51,
+      "distribution": 74
     },
     {
       "id": "p256",
@@ -13106,7 +14130,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 55
+      "kicking": 55,
+      "jumping": 25,
+      "workRate": 59,
+      "goalkeeperPositioning": 44,
+      "distribution": 55
     },
     {
       "id": "p257",
@@ -13157,7 +14185,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 58
+      "kicking": 58,
+      "jumping": 25,
+      "workRate": 60,
+      "goalkeeperPositioning": 43,
+      "distribution": 58
     },
     {
       "id": "p258",
@@ -13208,7 +14240,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 75
+      "kicking": 75,
+      "jumping": 25,
+      "workRate": 56,
+      "goalkeeperPositioning": 39,
+      "distribution": 75
     },
     {
       "id": "p259",
@@ -13259,7 +14295,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 64
+      "kicking": 64,
+      "jumping": 25,
+      "workRate": 56,
+      "goalkeeperPositioning": 47,
+      "distribution": 64
     },
     {
       "id": "p260",
@@ -13310,7 +14350,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 60
+      "kicking": 60,
+      "jumping": 25,
+      "workRate": 72,
+      "goalkeeperPositioning": 44,
+      "distribution": 60
     },
     {
       "id": "p261",
@@ -13361,7 +14405,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 45
+      "kicking": 45,
+      "jumping": 25,
+      "workRate": 50,
+      "goalkeeperPositioning": 39,
+      "distribution": 45
     },
     {
       "id": "p262",
@@ -13412,7 +14460,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 49
+      "kicking": 49,
+      "jumping": 25,
+      "workRate": 47,
+      "goalkeeperPositioning": 29,
+      "distribution": 49
     },
     {
       "id": "p263",
@@ -13463,7 +14515,11 @@
       "reflexes": 25,
       "handling": 25,
       "aerial": 25,
-      "kicking": 51
+      "kicking": 51,
+      "jumping": 25,
+      "workRate": 49,
+      "goalkeeperPositioning": 37,
+      "distribution": 51
     }
   ]
 }

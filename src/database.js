@@ -2,12 +2,14 @@ export const POSITIONS = ['GK','CB','LB','RB','DM','CM','AM','LW','RW','ST'];
 export const GROUPS = {GK:'GK',CB:'DEF',LB:'DEF',RB:'DEF',DM:'MID',CM:'MID',AM:'MID',LW:'FWD',RW:'FWD',ST:'FWD',DEF:'DEF',MID:'MID',FWD:'FWD'};
 export const ATTRIBUTES = {
   Technical:['finishing','passing','defending','crossing','dribbling','firstTouch','tackling','marking','heading','technique'],
-  Physical:['pace','acceleration','stamina','strength','agility'],
-  Mental:['decisions','composure','positioning','teamwork','vision','aggression'],
-  Goalkeeper:['keeping','reflexes','handling','aerial','kicking']
+  Physical:['pace','acceleration','stamina','strength','agility','jumping'],
+  Mental:['decisions','composure','positioning','teamwork','vision','aggression','workRate'],
+  Goalkeeper:['keeping','reflexes','handling','aerial','kicking','goalkeeperPositioning','distribution']
 };
+export const OPTIONAL_ATTRIBUTES=['jumping','workRate','goalkeeperPositioning','distribution'];
+export function attributeDefaults(p){return {jumping:p.jumping??p.aerial,workRate:p.workRate??p.teamwork,goalkeeperPositioning:p.goalkeeperPositioning??p.positioning,distribution:p.distribution??p.kicking};}
 export const ALL_ATTRIBUTES=Object.values(ATTRIBUTES).flat();
-export const LABELS={firstTouch:'First touch',keeping:'Goalkeeping',aerial:'Aerial reach'};
+export const LABELS={firstTouch:'First touch',keeping:'Goalkeeping',aerial:'Aerial reach',workRate:'Work rate',goalkeeperPositioning:'Goalkeeper positioning'};
 export function uid(prefix='p') {return `${prefix}-${globalThis.crypto.randomUUID()}`;}
 export function generateAttributes(overall,position) {
   const group=GROUPS[position];const result={};
@@ -42,13 +44,13 @@ export function validatePlayers(input,clubs) {
     if(!Array.isArray(p.secondaryPositions)||p.secondaryPositions.some(pos=>!POSITIONS.includes(pos)||pos===p.primaryPosition)||new Set(p.secondaryPositions).size!==p.secondaryPositions.length)errors.push(`${label}: invalid secondary positions.`);
     if(!['Left','Right','Both'].includes(p.preferredFoot))errors.push(`${label}: invalid preferred foot.`);
     if(!Number.isInteger(p.age)||p.age<15||p.age>50)errors.push(`${label}: age must be 15–50.`);
-    for(const key of ['overall','potential',...ALL_ATTRIBUTES])if(!Number.isInteger(p[key])||p[key]<1||p[key]>99)errors.push(`${label}: ${key} must be an integer from 1 to 99.`);
+    for(const key of ['overall','potential',...ALL_ATTRIBUTES])if(!(p[key]===undefined&&OPTIONAL_ATTRIBUTES.includes(key))&&(!Number.isInteger(p[key])||p[key]<1||p[key]>99))errors.push(`${label}: ${key} must be an integer from 1 to 99.`);
     if(p.potential<p.overall)errors.push(`${label}: potential cannot be below overall.`);
     if(!Number.isSafeInteger(p.wage)||p.wage<100||p.wage>1_000_000)errors.push(`${label}: wage must be £100–1,000,000/week.`);
     if(!Number.isInteger(p.contract)||p.contract<1||p.contract>5)errors.push(`${label}: contract must be 1–5 years.`);
   });return errors;
 }
-export function normalizePlayer(p) {return {...p,position:GROUPS[p.primaryPosition],secondaryPositions:[...p.secondaryPositions]};}
+export function normalizePlayer(p) {return {...p,...attributeDefaults(p),position:GROUPS[p.primaryPosition],secondaryPositions:[...p.secondaryPositions]};}
 export function parsePlayerJSON(text) {
   if(text.length>10_000_000)throw Error('File is too large (maximum 10 MB).');
   const data=JSON.parse(text);if(Array.isArray(data))return data;if(data.schemaVersion!==1||!Array.isArray(data.players))throw Error('Expected schemaVersion 1 and a players array.');return data.players;
@@ -58,7 +60,7 @@ export const CSV_COLUMNS=['id','name','age','nationality','clubId','primaryPosit
 const numeric=new Set(['age','overall','potential','wage','contract',...ALL_ATTRIBUTES]);
 export function exportCSV(players) {
   const quote=v=>{let text=String(v??'');return /[",\r\n]/.test(text)?`"${text.replaceAll('"','""')}"`:text;};
-  return [CSV_COLUMNS.join(','),...players.map(p=>CSV_COLUMNS.map(k=>quote(k==='secondaryPositions'?p[k].join('|'):p[k])).join(','))].join('\r\n');
+  return [CSV_COLUMNS.join(','),...players.map(normalizePlayer).map(p=>CSV_COLUMNS.map(k=>quote(k==='secondaryPositions'?p[k].join('|'):p[k])).join(','))].join('\r\n');
 }
 export function importCSV(text) {
   if(text.length>10_000_000)throw Error('File is too large (maximum 10 MB).');
@@ -71,8 +73,8 @@ export function importCSV(text) {
   if(quoted)throw Error('CSV has an unclosed quoted field.');row.push(cell);if(row.some(v=>v.trim()))rows.push(row);
   if(rows.length<2)throw Error('CSV must contain a header and player rows.');const headers=rows.shift().map(s=>s.trim());
   if(new Set(headers).size!==headers.length)throw Error('CSV contains duplicate column headers.');
-  const missing=CSV_COLUMNS.filter(k=>!headers.includes(k));if(missing.length)throw Error(`Missing CSV columns: ${missing.join(', ')}.`);
-  return rows.map((values,i)=>{if(values.length!==headers.length)throw Error(`CSV row ${i+2}: expected ${headers.length} columns.`);const p={};headers.forEach((k,j)=>{const v=values[j].trim();p[k]=numeric.has(k)?v===''?NaN:Number(v):k==='secondaryPositions'?v?v.split('|').map(x=>x.trim()):[]:v;});return p;});
+  const missing=CSV_COLUMNS.filter(k=>!OPTIONAL_ATTRIBUTES.includes(k)&&!headers.includes(k));if(missing.length)throw Error(`Missing CSV columns: ${missing.join(', ')}.`);
+  return rows.map((values,i)=>{if(values.length!==headers.length)throw Error(`CSV row ${i+2}: expected ${headers.length} columns.`);const p={};headers.forEach((k,j)=>{const v=values[j].trim();p[k]=numeric.has(k)?v===''?NaN:Number(v):k==='secondaryPositions'?v?v.split('|').map(x=>x.trim()):[]:v;});return normalizePlayer(p);});
 }
 export function validateDatabase(db) {
   const errors=[];
@@ -89,5 +91,5 @@ export function validateDatabase(db) {
 }
 export async function loadBundledDatabase(){
   const [leagues,clubs,data]=await Promise.all(['leagues','clubs','players'].map(async name=>{const res=await fetch(`./data/${name}.json`);if(!res.ok)throw Error(`Cannot load data/${name}.json (${res.status}).`);return res.json();}));
-  const db={leagues,clubs,players:parsePlayerJSON(JSON.stringify(data))};const errors=validateDatabase(db);if(errors.length)throw Error(errors.slice(0,10).join('\n'));return db;
+  const db={leagues,clubs,players:parsePlayerJSON(JSON.stringify(data)).map(normalizePlayer)};const errors=validateDatabase(db);if(errors.length)throw Error(errors.slice(0,10).join('\n'));return db;
 }

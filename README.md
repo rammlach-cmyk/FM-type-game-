@@ -1,4 +1,4 @@
-# Touchline Twelve
+# TOUCHLINE — The Tactical Update
 
 A playable, lightweight browser soccer management game. Vanilla JavaScript, CSS, and Canvas; no runtime framework, backend, accounts, paid APIs, or external assets. All clubs and players are fictional. Careers and editor databases live in your browser and can be exported.
 
@@ -20,8 +20,8 @@ Export your career before switching devices, clearing browser data, changing web
 
 - Default 12-club league, 264 players, a double round robin with 22 matchweeks / 132 matches, standings, fixture reports, player goals/assists/appearances/shots/minutes, and repeat seasons with a history archive.
 - Clubs with individual colors, identities, stadiums, balances, and board expectations.
-- Selectable XI, seven bench slots, captain and set-piece taker; four formations, per-player roles, mentality, pressing, defensive line, width, tempo, and passing instructions; six tactical styles with manual customization.
-- Seeded minute-by-minute simulation: actual player attributes, position fit, secondary positions, fitness, morale, captain leadership, home advantage, and tactical matchups affect chances. Every shot has an xG value and a single outcome. Goals, shots, saves, xG, and commentary use those same events.
+- Selectable XI, seven bench slots, captain, penalty/free-kick/left/right corner takers; seven formations, 28 position-specific roles and duties, tactical familiarity, grouped instructions, and eleven presets (the original six plus the new styles).
+- Seeded possession/event simulation in one-minute batches: actual player attributes, position fit, secondary positions, fitness, morale, captain leadership, home advantage, and tactical matchups affect chances. Every shot has an xG value and a single outcome. Goals, shots, saves, xG, and commentary use those same events.
 - Animated 2D event view; pause, 1×/2×/4×/8× playback, automatic half-time pause, five substitutions, in-match tactical changes, and instant simulation. Save a match in progress and resume it paused.
 - Paid scouting with approximate unscouted ratings, asking prices, fee/wage/contract offers, club/player rejections, one negotiation per player per week, squad-depth and cash-reserve rules, player sales, and AI transfers/substitutions.
 - Weekly training, attribute gains, fitness and morale, training/match injuries and recovery.
@@ -41,11 +41,17 @@ Choose **Easy**, **Medium** (recommended), or **Hard** before selecting a club. 
 
 Difficulty **never changes player attributes, fitness formulas, shooting/conversion rules, home advantage, or seeds to favor an opponent**. There is no scripted result. AI decision randomness has its own saved stream, separate from shot outcomes. Different managerial decisions can produce different matches. Board confidence remains advisory, without dismissal.
 
-The tactical screen and match centre offer **Balanced, Possession, High Press, Counterattack, Direct Play, and Defensive**. Each shows suitable players, strengths, and tradeoffs. Presets set mentality, pressing, line, width, passing, and tempo; they preserve your formation and player roles. Manual instruction changes show **Custom** when they differ from every preset. Styles are saved through their actual settings, without a separate label that can fall out of sync. High pressing/quick tempo consume more fitness. High lines expose defenders to fast direct play; short patient passing favors control at the cost of urgency. Direct play uses heading/strength and second-ball contests. No preset guarantees results.
+The tactical screen and match centre offer **Balanced, Possession, Gegenpress, Tiki-Taka, Counter Attack, Direct Play, Wing Play, and Low Block**, alongside the original **High Press, Counterattack, and Defensive** presets. Each shows suitable players, strengths, and tradeoffs. Presets preserve formation, selected players, and roles. Manual changes show **Custom**.
 
-Use **Ask Assistant** from the top bar or assistant panel. Recommendations use your selected formation, actual ability, natural/secondary positions, current fitness, last five recorded performances, injuries, finances, and observed match state. It offers an XI/bench, a suitable style, position/depth concerns, affordable targets, and an opponent preview. During matches it considers score, time, knocks, fatigue, shots, possession, xG, and observed instructions. Yellow-card events appear in commentary, statistics, match reports, and player totals. Booked players are more cautious, and the assistant can recommend reducing a high press. Dismissals and suspensions are not simulated.
+**In possession:** width; five passing lengths (plus legacy Short/Direct aliases); tempo; creative freedom; work ball into box/early crosses/shoot on sight/mixed; defensive buildup; left/right overlaps. **In transition:** counter-press/regroup, counter/hold shape, goalkeeper distribution. **Out of possession:** five defensive lines, four pressing intensities, defensive width, tackling approach, offside trap. The original formations remain, with 4-1-4-1, 5-3-2, and 4-3-1-2 added.
 
-Click **Apply recommendation…** to preview the exact lineup/bench/leader or instruction changes. Click **Apply recommendation** in the preview to confirm. Recommendations never buy players, spend money, renew contracts, or mutate anything merely by being displayed. The assistant does not disclose unscouted potential or exact unscouted attributes. Transfer targets use the same broad estimates as the market. A stale match/formation recommendation is rejected; ask again.
+Roles use each player's primary position, with Defend/Support/Attack duties where appropriate. Descriptions explain their behavior. For example, Wingers supply width, Inside Forwards favor shots, False Nines provide links, Target Forwards contest aerial balls, and Ball Playing Defenders progress possession with turnover risk. Frequently used formations, styles, instructions, and roles build familiarity gradually. Tactical changes briefly reduce organization by at most 7%; this decays during play. Live role/duty changes affect future events only.
+
+Use **Ask Assistant**, **Ask Assistant to pick team**, or **Ask for tactical advice**. A seeded staff profile displays name, nationality, and four 1–20 ratings. Squad advice considers ability, exact/secondary position fit, role suitability, fitness, morale, form, injuries, and suspensions. It retains affordable scouting targets and never reveals unscouted potential. The dashboard's pre-match briefing offers 2–5 notes, including opponent shape, recorded form/goals/possession, shot origins, and public performances when available. Unknown data is clearly described as unavailable.
+
+The match assistant reviews events every 12 simulated minutes on Easy/Medium; Hard remains on request. It can recommend formation/instructions/roles, substitutes, less pressing, transition protection, or responses to midfield numbers, wide progression, and actual high turnovers. **Accept… / Make change…** opens an exact preview; **Ignore** dismisses the note for the current interval. Substitution advice includes outgoing fitness/match rating, incoming fitness/ability, and the reason. Full-time and dashboard reports retain what worked, what needs review, the key player, a tactical issue, and a suggested improvement. Reports describe event evidence rather than claiming causal certainty from a single result.
+
+Click **Apply recommendation…** to preview the exact lineup/bench/leader/taker, formation, role/duty, substitution, or instruction changes. Click **Apply recommendation** in the preview to confirm. Recommendations never buy players, spend money, renew contracts, or mutate anything merely by being displayed. The assistant does not disclose unscouted potential or exact unscouted attributes. Transfer targets use the same broad estimates as the market. A stale match/formation recommendation is rejected; ask again.
 
 ## Player database studio
 
@@ -62,12 +68,12 @@ The CSV columns are:
 ```text
 id,name,age,nationality,clubId,primaryPosition,secondaryPositions,preferredFoot,overall,potential,wage,contract,
 finishing,passing,defending,crossing,dribbling,firstTouch,tackling,marking,heading,technique,
-pace,acceleration,stamina,strength,agility,
-decisions,composure,positioning,teamwork,vision,aggression,
-keeping,reflexes,handling,aerial,kicking
+pace,acceleration,stamina,strength,agility,jumping,
+decisions,composure,positioning,teamwork,vision,aggression,workRate,
+keeping,reflexes,handling,aerial,kicking,goalkeeperPositioning,distribution
 ```
 
-The exported CSV places these on one header line. Export one first as a template. CSV protects normal RFC-style quoting; keep your spreadsheet's macro/formula handling settings appropriate for the names you import.
+The new jumping/work rate/goalkeeper positioning/distribution columns are included in exports and editable on the same 1–99 scale. Old JSON/CSV databases that omit them still load: defaults derive from aerial/teamwork/positioning/kicking. Provided values must validate. All other required columns remain required. The exported CSV places these on one header line. Export one first as a template. CSV protects normal RFC-style quoting; keep your spreadsheet's macro/formula handling settings appropriate for the names you import.
 
 ### Bundle your custom players into the game
 
@@ -139,10 +145,13 @@ For a rebuilt `dist/` deployment, upload its contents to a dedicated Pages branc
 
 ## Verification
 
-Engine/database checks use only Node's built-in test runner:
+Engine/database tests use Node's built-in test runner. Install development dependencies for TypeScript validation and the production build:
 
 ```sh
+npm ci
 npm test
+npm run typecheck
+npm run calibrate
 npm run build
 ```
 
@@ -162,12 +171,12 @@ CHROMIUM_PATH=/usr/bin/chromium npm run test:browser
 
 Browser tests start their own server on port 5174 and exercise a full 22-week season through the actual UI; playback/substitutions/tactics; live save/reload; transfers and accounting; career save import/export; editor create/duplicate/delete/generation; CSV/JSON round trips and validation; custom club/team counts; bundled replacement versus existing-save independence; and Chromebook/narrow layouts. Screenshots are generated in ignored `test-results/`.
 
-The engine suite checks 132 fixtures, standings/goal/shot totals, finances, deterministic replay and mid-match restoration, odd/even league schedules, transfers, injuries/development support, database migration, malformed saves, and 150 seeded strong-vs-weak matches. Regressions use an independent original default database fixture. The build validates the actual bundled database, so your custom roster can be published without modifying tests.
+The 49-test engine suite checks role/duty effects, tactical tradeoffs, possession/event statistics, fatigue/substitutions, red cards/suspensions, assistant actions, real version-1 migration, and 132 fixtures, standings/goal/shot totals, finances, deterministic replay and mid-match restoration, odd/even league schedules, transfers, injuries/development support, database migration, malformed saves, and 150 seeded strong-vs-weak matches. Regressions use an independent original default database fixture. A previous-engine save fixture includes recorded results and a live substitution. `npm run calibrate` runs 600 reproducible AI matches and writes `docs/calibration.json`; see [the update notes](docs/TACTICAL-UPDATE.md) for metrics and methodology. The build type-checks the possession engine and module contracts, then validates the actual bundled database, so your custom roster can be published without modifying tests.
 
 ## Simplifications and limits
 
-- The 2D pitch illustrates simulation events; it is not a physics/ball-collision simulator. Each player can receive one yellow card per match; booked players are slightly more cautious. Matches have 90 minutes and half-time, without stoppage time, extra time, penalties, red/second-yellow dismissals, suspensions, offside decisions, or detailed referee logic. Saves, goals, shots, possession, and xG remain tied to actual simulated events.
-- Positions are grouped into GK/DEF/MID/FWD for lineup fit. Secondary positions soften the mismatch penalty. Preferred foot and nationality are stored/displayed editor fields without special match modifiers. Overall is a reference value; weighted actual attributes determine match strength.
+- The 2D pitch illustrates simulation events; it is not a physics/ball-collision simulator. Matches have 90 minutes and half-time, with fouls, corners, offsides, penalties/free kicks, direct reds, second yellows, and one-match red-card suspensions. There is no stoppage time, extra time, penalty shootout, detailed referee positioning, or abandonment model; the abstraction keeps at least seven players on each side. Saves, goals, shots, possession, and xG remain tied to actual simulated events.
+- Exact primary/secondary positions determine lineup fit; broad GK/DEF/MID/FWD groups remain for market filters and some legacy interfaces. Preferred foot and nationality are stored/displayed editor fields without special match modifiers. Overall is a reference value; weighted actual attributes determine match strength.
 - AI squad management uses automatic lineups, substitutions, simple transfers, and difficulty-based tactical reactions. Negotiation is a one-off weekly offer rather than a multi-round agent conversation. Transfers are permanent; no loans, free agents, release clauses, agent fees, or sell-on clauses.
 - Training improves individual attributes gradually. Injury durations are week-based. There are no facilities, coaches, youth intake, retirement, or medical staff decisions. Expiring contracts automatically receive a one-year bridge deal (+8% wages) to keep squads playable; ages cap at 50. There is no age-related attribute decline yet.
 - Board confidence is feedback, without dismissal. Cash can go negative, but transfers require funds. A ledger retains the latest 1,000 league transactions; club cumulative income/expenses remain intact.
@@ -179,10 +188,20 @@ The engine suite checks 132 fixtures, standings/goal/shot totals, finances, dete
 
 ```text
 data/                 Editable default leagues, clubs, and players
-src/engine.js         Pure seeded simulation and career operations (no DOM/storage)
+src/engine.js         Career operations and match orchestration (no DOM/storage)
+src/match.js          Seeded possession phases, events, xG and discipline
+src/tactics.js        Position fit, team strengths, workload and familiarity
+src/tactical-settings.js Grouped instructions and legacy aliases
+src/roles.js          Positional role behaviors and duty tradeoffs
+src/statistics.js     Team/player event statistics and persisted reports
+src/commentary.js     Outcome-based event text
+src/migrations.js     Version-1/2 migration and new-field defaults
+src/types.d.ts        TypeScript career, player, match and advice interfaces
+src/tactical-contracts.ts Compile-time module boundary checks
 src/management.js     Difficulty policies and board targets
-src/styles.js         Six tactical presets and Custom detection
-src/assistant.js      Read-only rule-based recommendations and explicit application
+src/styles.js         Tactical presets and Custom detection
+src/assistant.js      Read-only rules, exact previews and explicit application
+src/assistant-analysis.js Opponent evidence, live tactical rules and reports
 src/database.js       Database validation, attribute generator, CSV/JSON handling
 src/app.js            Screens, match controls, browser career persistence
 src/editor.js         Player/club/league studio and independent draft persistence
@@ -192,7 +211,14 @@ src/style.css         Responsive dark interface
 assets/crest.svg      Original vector branding
 server.js             Dependency-free local HTTP server
 scripts/build.mjs     Data validation and static deployment copy
+scripts/calibrate.mjs Reproducible multi-style AI calibration
 tests/                Engine/database regressions and Playwright journeys
 ```
 
 The simulation serializes RNG states for the career and each match. Match seeds derive from career seed, season, round, and stable club IDs. Keeping the same inputs and decisions reproduces the same events; UI animations do not consume simulation randomness.
+
+## Save migration for this update
+
+Career schema is now **version 2**. The local storage key remains `touchline-career-v1` so existing careers are found automatically. Loading version 1 adds missing instructions, roles/duties, familiarity, takers, assistant profile, extra attributes, suspension fields, and live statistics. Difficulty defaults to Medium if missing. Existing names, IDs, clubs, finances, completed scores, lineups, substitutions, events, and player records remain. Legacy role and tactical names are supported.
+
+A migrated active match continues paused from its saved minute. New pass/foul/tactical statistics start at that minute and are labeled as partial; unavailable earlier events are not fabricated. The remaining match uses the updated engine, so its future outcomes may differ from the old engine. Deterministic replay is exact within version 2 when seed, inputs, and decisions match. Export a backup before changing deployment versions; version-2 saves cannot be loaded by the older version-1 application. New careers still use the bundled roster; existing careers keep their own players unless explicitly migrated in Database studio.

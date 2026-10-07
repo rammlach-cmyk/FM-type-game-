@@ -24,6 +24,7 @@ export function startPitch(canvas,getMatch,getState,isPlaying=()=>true) {
       const color=s.clubs.find(c=>c.id===m.teams[side]).color;
       const pts=formationPoints(m.tactics[side].formation);
       pts.forEach(([px,py],i)=>{
+        if(!m.lineups[side][i]){locations[side].push(null);return;}
         const ownX=(1-py)*.68+.02;const shift=i===0?0:(sideOnBall===side?.035:-.015);
         let x=pad+pw*(side===0?ownX+shift:1-ownX-shift),y=pad+ph*px;
         if(i!==0){x+=Math.sin(t+i*1.7+side)*pw*.018;y+=Math.cos(t*.7+i*1.3)*ph*.025;}
@@ -32,7 +33,7 @@ export function startPitch(canvas,getMatch,getState,isPlaying=()=>true) {
       });
     }
     const event=m.lastEvent;const shooterIndex=event?.playerId?m.lineups[sideOnBall].indexOf(event.playerId):-1;
-    const point=locations[sideOnBall][shooterIndex>0?shooterIndex:5],next=locations[sideOnBall][8];
+    const point=locations[sideOnBall][shooterIndex>0?shooterIndex:5]||locations[sideOnBall].find(Boolean),next=locations[sideOnBall][8]||locations[sideOnBall].filter(Boolean).at(-1);
     const mix=reduced?.3:(Math.sin(t*2)+1)/2;
     let bx=point[0]+(next[0]-point[0])*mix,by=point[1]+(next[1]-point[1])*mix;
     if(event?.type==='goal'||event?.type==='shot'){const goalX=sideOnBall===0?w-pad:pad;bx=point[0]+(goalX-point[0])*mix;by=point[1]+(h/2-point[1])*mix;}

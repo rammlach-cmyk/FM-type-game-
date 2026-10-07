@@ -1,0 +1,106 @@
+{
+  "model": "TOUCHLINE tactical update v2",
+  "seedSequence": "7919 × (index + 1)",
+  "matches": 600,
+  "pairing": "Round-robin club pairs, rotating styles; both AI managers use Hard decision rules. No rating boosts.",
+  "seconds": 15.057,
+  "averages": {
+    "goals": 2.633,
+    "shots": 22.02,
+    "onTarget": 8.027,
+    "xg": 2.682,
+    "yellowCards": 4.068,
+    "redCards": 0.185,
+    "fouls": 25.412,
+    "corners": 9.867,
+    "homePossession": 50.482,
+    "passCompletion": 80.214
+  },
+  "outcomes": {
+    "homeWinPercent": 37.167,
+    "drawPercent": 26.667,
+    "awayWinPercent": 36.167,
+    "scorelessPercent": 9.5,
+    "eightPlusGoalPercent": 1,
+    "maximumCombinedGoals": 9
+  },
+  "styles": {
+    "Balanced": {
+      "matches": 109,
+      "goals": 0.853,
+      "xg": 0.985,
+      "possession": 48.083,
+      "remainingFitness": 87.379
+    },
+    "Counterattack": {
+      "matches": 110,
+      "goals": 1.727,
+      "xg": 1.582,
+      "possession": 49.773,
+      "remainingFitness": 87.903
+    },
+    "Possession": {
+      "matches": 109,
+      "goals": 1.083,
+      "xg": 1.109,
+      "possession": 50.789,
+      "remainingFitness": 88.162
+    },
+    "Low Block": {
+      "matches": 109,
+      "goals": 1.761,
+      "xg": 1.728,
+      "possession": 48.404,
+      "remainingFitness": 87.807
+    },
+    "High Press": {
+      "matches": 110,
+      "goals": 1.318,
+      "xg": 1.482,
+      "possession": 50.891,
+      "remainingFitness": 83.536
+    },
+    "Gegenpress": {
+      "matches": 109,
+      "goals": 2.037,
+      "xg": 2.057,
+      "possession": 49.404,
+      "remainingFitness": 81.671
+    },
+    "Direct Play": {
+      "matches": 109,
+      "goals": 0.688,
+      "xg": 0.751,
+      "possession": 47.119,
+      "remainingFitness": 86.66
+    },
+    "Wing Play": {
+      "matches": 109,
+      "goals": 1.523,
+      "xg": 1.55,
+      "possession": 52.138,
+      "remainingFitness": 87.405
+    },
+    "Defensive": {
+      "matches": 110,
+      "goals": 0.882,
+      "xg": 0.924,
+      "possession": 50,
+      "remainingFitness": 88.612
+    },
+    "Tiki-Taka": {
+      "matches": 108,
+      "goals": 1.481,
+      "xg": 1.432,
+      "possession": 55.213,
+      "remainingFitness": 87.835
+    },
+    "Counter Attack": {
+      "matches": 108,
+      "goals": 1.13,
+      "xg": 1.151,
+      "possession": 48.213,
+      "remainingFitness": 87.504
+    }
+  }
+}
