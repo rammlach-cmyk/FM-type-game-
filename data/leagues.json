@@ -1,0 +1,47 @@
+[
+  {
+    "id": "l-meridian",
+    "name": "Meridian Premier League",
+    "country": "Fictional Isles",
+    "teamIds": [
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "c9",
+      "c10",
+      "c11"
+    ],
+    "schedule": {
+      "format": "round-robin",
+      "legs": 2
+    },
+    "transferRules": {
+      "maxSquad": 30,
+      "minSquad": 16,
+      "minKeepers": 2,
+      "minOutfieldPerGroup": 3,
+      "window": "always",
+      "scoutingCost": 5000,
+      "wageReserveWeeks": 8
+    },
+    "promotionRelegation": {
+      "promote": 0,
+      "relegate": 0,
+      "promotionTarget": null,
+      "relegationTarget": null
+    },
+    "finance": {
+      "sponsorship": 65000,
+      "operations": 22000,
+      "prizeBase": 1600000,
+      "prizeStep": 110000,
+      "prizeMinimum": 250000
+    }
+  }
+]
